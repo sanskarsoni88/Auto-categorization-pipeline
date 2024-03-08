@@ -14,7 +14,7 @@ Level 2: Depending on the outcome of Level 1, one of 15 specialized neural netwo
 
 ## Example
 To illustrate the efficacy of this solution, I've provided access to a model trained specifically for the "Building and Construction" category, which includes 652 subcategories. <br>
-**Setup**: Clone the repository. Then, create and activate a new environment, following the provided instructions to install necessary dependencies. <br>
+**Setup**: Clone the repository. Then, create and activate a new environment, install necessary dependencies listen on requirements.txt. <br>
 **Data Preparation**: Compile your product data into a DataFrame with a single column titled 'Product Name'. Save this as a CSV in the base directory. <br>
 **Execution**: Navigate to the base directory and run the start.py script with your CSV file:
 
