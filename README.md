@@ -18,7 +18,7 @@ To illustrate the efficacy of this solution, I've provided access to a model tra
 **Data Preparation**: Compile your product data into a DataFrame with a single column titled 'Product Name'. Save this as a CSV in the base directory.
 **Execution**: Navigate to the base directory and run the start.py script with your CSV file:
 
-cd /path/to/base/directory # Ensure you're in the base directory
+cd /path/to/base/directory # Ensure you're in the base directory <br>
 python3 src/start.py your_product_file.csv
 
 ## Looking Ahead
