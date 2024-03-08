@@ -1,5 +1,5 @@
 # Auto-categorization Pipeline for Vistaar Trade
-As Nepal's pioneering B2B platform, Vistaar Trade aimed to streamline its product categorization process, encompassing an extensive catalog of over 6000 subcategories. My role as an AI Solutions Engineer was pivotal in transitioning from a manual classification system to an automated, efficient model.
+As Nepal's pioneering B2B platform, Vistaar Trade aimed to streamline its product categorization process, encompassing an extensive catalog of over 6000 subcategories. My role as an AI Solutions Engineer was pivotal in transitioning from a manual classification system to an automated, efficient model. I was able to achieve an average f1-score across all models of 0.62, which is very promising when taking into account how many categories there are.
 
 ## Leveraging NLP for Enhanced Word Embeddings
 At the core of the auto-categorization pipeline is a sophisticated NLP framework capable of vectorizing product names for AI processing. After experimenting with various models, I chose FastText for its ability to handle Out-of-Vocabulary (OOV) words, a common challenge in dynamic product inventories.
