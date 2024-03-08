@@ -13,9 +13,9 @@ Level 1: A primary neural network, trained on a vast dataset, classifies product
 Level 2: Depending on the outcome of Level 1, one of 15 specialized neural networks takes over, assigning the product to one of the 6000+ subcategories, based on the established word embeddings.
 
 ## Example
-To illustrate the efficacy of this solution, I've provided access to a model trained specifically for the "Building and Construction" category, which includes 652 subcategories.
-**Setup**: Clone the repository. Then, create and activate a new environment, following the provided instructions to install necessary dependencies.
-**Data Preparation**: Compile your product data into a DataFrame with a single column titled 'Product Name'. Save this as a CSV in the base directory.
+To illustrate the efficacy of this solution, I've provided access to a model trained specifically for the "Building and Construction" category, which includes 652 subcategories. <br>
+**Setup**: Clone the repository. Then, create and activate a new environment, following the provided instructions to install necessary dependencies. <br>
+**Data Preparation**: Compile your product data into a DataFrame with a single column titled 'Product Name'. Save this as a CSV in the base directory. <br>
 **Execution**: Navigate to the base directory and run the start.py script with your CSV file:
 
 cd /path/to/base/directory # Ensure you're in the base directory <br>
