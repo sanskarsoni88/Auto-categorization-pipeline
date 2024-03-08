@@ -12,6 +12,11 @@ To manage the sheer scale of potential subcategories, I architected a hierarchic
 Level 1: A primary neural network, trained on a vast dataset, classifies products into one of 50 overarching categories.
 Level 2: Depending on the outcome of Level 1, one of 15 specialized neural networks takes over, assigning the product to one of the 6000+ subcategories, based on the established word embeddings.
 
+<div align="center">
+  <img src="/algorithm.png" alt="Pipeline"><br>
+  <em>Fig: Pipeline</em><br><br>
+</div>
+
 ## Example
 To illustrate the efficacy of this solution, I've provided access to a model trained specifically for the "Building and Construction" category, which includes 652 subcategories. <br>
 **Setup**: Clone the repository. Then, create and activate a new environment, install necessary dependencies listen on requirements.txt. <br>
