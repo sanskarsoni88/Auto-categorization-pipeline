@@ -27,6 +27,6 @@ cd /path/to/base/directory # Ensure you're in the base directory <br>
 python3 src/start.py your_product_file.csv
 
 ## Looking Ahead
-Currently, my focus is on deploying all 16 models onto AWS via RestAPI, optimizing for scalability and ease of use. For confidentiality reasons, only a fraction of the models are showcased here. This serves as a testament to the robustness of the auto-categorization pipeline.
+Currently, my focus is on deploying all 16 models onto AWS via RestAPI, optimizing for scalability and ease of use. For confidentiality reasons, only a fraction of the models are showcased here. This serves as a demonstration of the auto-categorization pipeline.
 
 
